@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        // {
+        //     "name": "Flutter: Run all Tests",
+        //     "type": "dart",
+        //     "request": "launch",
+        //     "program": "./test/"
+        // },
+        // {
+        //     "name": "Dart",
+        //     "type": "dart",
+        //     "request": "launch",
+        //     "program": "bin/main.dart"
+        // },
+
+        // {
+        //     "name": "Flutter: Attach to Device",
+        //     "type": "dart",
+        //     "request": "attach"
+        // },
+        // {
+        //     "name": "Dart: Attach to Process",
+        //     "type": "dart",
+        //     "request": "attach"
+        // },
+        {
+            "name": "Flutter",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart"
+        },
+        // {
+        //     "name": "Flutter (Release)",
+        //     "program": "lib/main.dart",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "args": ["--release"]
+        // },
+        {
+            "name": "Flutter (Debug)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--debug"]
+        }
+    ]
+}
